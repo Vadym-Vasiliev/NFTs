@@ -3,17 +3,6 @@
 }
 
 .gallery-content {
-  &__title {
-    font-family: "Ruda";
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 1.2;
-    text-align: center;
-    margin-bottom: 56px;
-
-    color: $white;
-  }
-
   &__btn {
     font-family: "Ruda";
     font-weight: 500;
@@ -22,6 +11,13 @@
     padding: 16px 32px;
     display: block;
     margin: 0 auto;
+
+    transition: background-color 250ms linear;
+
+    &:hover,
+    &:focus {
+      background-color: rgba(137, 64, 255, 0.337254902);
+    }
   }
 }
 

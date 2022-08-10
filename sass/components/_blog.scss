@@ -2,19 +2,6 @@
   padding-bottom: 148px;
 }
 
-.blog-content {
-  &__title {
-    font-family: "Ruda";
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 1.2;
-    text-align: center;
-    margin-bottom: 56px;
-
-    color: $white;
-  }
-}
-
 .blog-list {
   display: flex;
   justify-content: center;
