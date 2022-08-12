@@ -3,6 +3,7 @@
 }
 
 .seller-content {
+  position: relative;
   &__btn {
     position: absolute;
     bottom: 120px;
@@ -32,7 +33,6 @@
 }
 
 .seller-list {
-  position: relative;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
